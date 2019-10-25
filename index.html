@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="todo-app">
@@ -21,7 +26,13 @@
           <ul class="todo-app__task-list tasks">
             <li class="todo-app__task-item task-item">
               <div class="task-item__view">         
-                <input type="checkbox" class="task-item__status" aria-label="Completed task: HTML"/>         
+                <input type="checkbox" class="task-item__status" aria-label="Completed task: HTML" id="task_1"/>
+                <label for="task_1" class="task-item__checkbox">
+                  <span
+                    class="task-item__checkbox__view"
+                    aria-label="Complete task: Task 1">
+                  </span>
+                </label>
                 <span class="task-item__text">HTML</span>         
                 <button class="task-item__delete">Delete task</button>       
               </div>
@@ -31,7 +42,13 @@
             </li>
             <li class="todo-app__task-item task-item">
               <div class="task-item__view">
-                <input type="checkbox" class="task-item__status" aria-label="Completed task: CSS"/>
+                <input type="checkbox" class="task-item__status" aria-label="Completed task: CSS" id="task_2"/>
+                <label for="task_2" class="task-item__checkbox">
+                  <span
+                    class="task-item__checkbox__view"
+                    aria-label="Complete task: Task 2">
+                  </span>
+                </label>
                 <span class="task-item__text">CSS</span>
                 <button class="task-item__delete">Delete task</button>
               </div>
@@ -41,7 +58,13 @@
             </li>
             <li class="todo-app__task-item task-item">
               <div class="task-item__view">
-                <input type="checkbox" class="task-item__status" aria-label="Completed task: JS"/>
+                <input type="checkbox" class="task-item__status" aria-label="Completed task: JS" id="task_3"/>
+                <label for="task_3" class="task-item__checkbox">
+                  <span
+                    class="task-item__checkbox__view"
+                    aria-label="Complete task: Task 3">
+                  </span>
+                </label>
                 <span class="task-item__text">JS</span>
                 <button class="task-item__delete">Delete task</button>
               </div>
@@ -51,7 +74,13 @@
             </li>
             <li class="todo-app__task-item task-item">
               <div class="task-item__view">
-                <input type="checkbox" class="task-item__status" aria-label="Completed task: JS tools"/>
+                <input type="checkbox" class="task-item__status" aria-label="Completed task: JS tools" id="task_4"/>
+                <label for="task_4" class="task-item__checkbox">
+                  <span
+                    class="task-item__checkbox__view"
+                    aria-label="Complete task: Task 4">
+                  </span>
+                </label>
                 <span class="task-item__text">JS tools</span>
                 <button class="task-item__delete">Delete task</button>
               </div>

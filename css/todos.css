@@ -1,0 +1,14 @@
+.todo-app__header {
+    display: flex;
+}
+
+.todo-app__header h1 {
+    display: flex;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 100px;
+    line-height: normal;
+    letter-spacing: -2.5px;
+    color: #CCCCCC;
+}

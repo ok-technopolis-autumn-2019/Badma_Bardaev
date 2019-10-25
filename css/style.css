@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "todos.css";
+@import "main.css";
+@import "main_control.css";
+@import "tasks.css";
+@import "footer.css";
+
+html {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.todo-app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}

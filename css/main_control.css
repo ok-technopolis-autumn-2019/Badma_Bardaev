@@ -1,0 +1,32 @@
+.main-controls__select-all {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-controls__select-all-button {
+    height: 50px;
+    width: 50px;
+    background: url(svg/action.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 5px;
+    font-size: 0;
+}
+
+.main-controls__create-new {
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.main-controls__create-new-input {
+    flex-grow: 1;
+    border: none;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #cccccc;
+}
