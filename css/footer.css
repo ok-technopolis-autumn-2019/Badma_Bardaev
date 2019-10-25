@@ -33,11 +33,13 @@
     left: -999999px;
 }
 
-.task-filter__input + span {
+.task-filter__input + .task-filter__text {
     padding: 5px;
+    border: 1px solid transparent;
 }
 
-.task-filter__input:checked + span {
+
+.task-filter__input:checked + .task-filter__text {
     border: 1px solid #ebdfdf;
     border-radius: 5px;
 }

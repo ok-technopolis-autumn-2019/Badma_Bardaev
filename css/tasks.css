@@ -1,11 +1,11 @@
-.todo-app__task-list.tasks {
+.todo-app__task-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 
-.todo-app__task-item.task-item {
+.todo-app__task-item {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -59,13 +59,20 @@
     align-items: center;
     letter-spacing: -0.6px;
     color: #666666;
+    word-break: break-all;
 }
 
 .task-item__delete {
     background: url(svg/delete.svg);
+    opacity: 0;
+    width: 20px;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
     margin-right: 11px;
     font-size: 0;
+}
+
+.task-item__delete:hover {
+    opacity: 1;
 }
