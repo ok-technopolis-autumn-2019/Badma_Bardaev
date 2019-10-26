@@ -1,9 +1,6 @@
 .task-counter {
     display: flex;
     margin-left: 12px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
     font-size: 14px;
     letter-spacing: -0.35px;
     color: #888888;
@@ -19,9 +16,6 @@
 .task-filter__item {
     display: flex;
     padding: 0 10px 0px 0px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
     font-size: 14px;
     align-items: center;
     letter-spacing: -0.35px;
@@ -48,9 +42,6 @@
     padding: 5px;
     background: #ffffff;
     border: none;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 300;
     font-size: 14px;
     color: #888888;
     margin-right: 12px;

@@ -7,6 +7,10 @@
 
 html {
     background: rgba(0, 0, 0, 0.05);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
 }
 
 .todo-app {
@@ -14,4 +18,49 @@ html {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    
 }
+
+.border-bottom1 {
+    display: flex;
+    width: 554px;
+    height: 3px;
+    background-color: #fff;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+.border-bottom2 {
+    display: flex;
+    width: 546px;
+    height: 2px;
+    background-color: #fff;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+/*
+ .border-bottom::before {
+        content: '';
+        position:absolute;
+        top: 100%;
+        left: 2px;
+        right: 2px;
+        height: 5px;
+        z-index: -1;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    .border-bottom::after {
+        content: 'gffdgdf';
+        position:absolute;
+        top: 100%;
+        left: 4px;
+        right: 4px;
+        height: 10px;
+        z-index: -2;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }*/

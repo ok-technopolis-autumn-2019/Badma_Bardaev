@@ -19,12 +19,12 @@
 }
 
 .task-item__status {
-    position: absolute;
-    left: -999999px;
-    
+    display: flex;
+    width: 0;
+    height: 0;
 }
 
-.task-item__checkbox__view {
+.task-item__checkbox-view {
     display: flex;
     width: 40px;
     height: 40px;
@@ -35,14 +35,22 @@
     align-items: center;
 }
 
+
 .task-item__status:checked
   + .task-item__checkbox
-  .task-item__checkbox__view {
+  .task-item__checkbox-view {
     background-image: url(svg/checkbox.svg);
     background-position: center;
     background-repeat: no-repeat;
     border: 1px solid #5dc2af;
 }
+
+.task-item__status:focus
+  + .task-item__checkbox
+  .task-item__checkbox-view {
+    border: 1px solid #a8a8a8;
+}
+
 
 .task-item__status:checked ~ .task-item__text {
     text-decoration: line-through;
@@ -51,13 +59,9 @@
 
 .task-item__text {
     display: flex;
+    padding: 10px 0;
     flex-grow: 1;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
     align-items: center;
-    letter-spacing: -0.6px;
     color: #666666;
     word-break: break-all;
 }
@@ -65,14 +69,20 @@
 .task-item__delete {
     background: url(svg/delete.svg);
     opacity: 0;
-    width: 20px;
+    width: 30px;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
     margin-right: 11px;
     font-size: 0;
+    flex-shrink: 0;
 }
 
-.task-item__delete:hover {
+
+.task-item__view:hover .task-item__delete {
+    opacity: 1;
+}
+
+.task-item__delete:focus {
     opacity: 1;
 }

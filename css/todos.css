@@ -1,11 +1,5 @@
 .todo-app__header {
     display: flex;
-}
-
-.todo-app__header .title {
-    display: flex;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 200;
     font-size: 100px;
     line-height: normal;
