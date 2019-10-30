@@ -1,7 +1,7 @@
 .todo-app__frame {
     display: flex;
     width: 562px;
-    height: 402px;
+    min-height: 402px;
     flex-direction: column;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -22,8 +22,7 @@
 
 .todo-app__tasks {
     display: flex;
-    width: 562px;
-    height: 293px;
+    min-height: 293px;
     box-shadow: inset 0px 2px 1px #E6E6E6;
 }
 
@@ -35,4 +34,5 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    box-shadow: inset 0px 2px 1px #E6E6E6;
 }

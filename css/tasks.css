@@ -19,9 +19,8 @@
 }
 
 .task-item__status {
-    display: flex;
-    width: 0;
-    height: 0;
+    position: absolute;
+    left: -9999px;    
 }
 
 .task-item__checkbox-view {
