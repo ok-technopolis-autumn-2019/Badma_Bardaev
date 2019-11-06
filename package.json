@@ -1,0 +1,23 @@
+{
+  "name": "todo_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok-technopolis-autumn-2019/Badma_Bardaev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok-technopolis-autumn-2019/Badma_Bardaev/issues"
+  },
+  "homepage": "https://github.com/ok-technopolis-autumn-2019/Badma_Bardaev#readme",
+  "dependencies": {
+    "main.css": "^2.0.0",
+    "reset.css": "^2.0.2"
+  }
+}
