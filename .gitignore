@@ -1,0 +1,7 @@
+.cache/
+.idea/Badma_Bardaev.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+dist/
+node_modules/
