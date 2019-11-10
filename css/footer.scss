@@ -1,8 +1,10 @@
+$color: #888888;
+
 .task-counter {
     display: flex;
     margin-left: 12px;
     font-size: 14px;
-    color: #888888;
+    color: $color;
 }
 
 .task-filter {
@@ -17,7 +19,7 @@
     padding: 0 10px 0px 0px;
     font-size: 14px;
     align-items: center;
-    color: #888888;
+    color: $color;
 }
 
 .task-filter__input {
@@ -41,6 +43,6 @@
     background: #ffffff;
     border: none;
     font-size: 14px;
-    color: #888888;
+    color: $color;
     margin-right: 12px;
 }

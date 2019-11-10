@@ -1,3 +1,5 @@
+$shadow-color: #e6e6e6;
+
 .todo-app__task-list {
     display: flex;
     flex-direction: row;
@@ -10,7 +12,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     width: 562px;
-    box-shadow: inset 0px -2px 1px #E6E6E6;
+    box-shadow: inset 0px -2px 1px $shadow-color;
 }
 
 .task-item__view {
@@ -29,7 +31,7 @@
     height: 40px;
     background: #ffffff;
     border-radius: 30px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid $shadow-color;
     margin: 5px;
     align-items: center;
 }

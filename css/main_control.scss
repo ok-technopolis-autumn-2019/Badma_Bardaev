@@ -1,11 +1,13 @@
+$size: 50px;
+
 .main-controls__select-all {
     display: flex;
     flex-direction: row;
 }
 
 .main-controls__select-all-button {
-    height: 50px;
-    width: 50px;
+    height: $size;
+    width: $size;
     background: url(svg/action.svg);
     background-position: center;
     background-repeat: no-repeat;

@@ -1,6 +1,9 @@
+$width-window: 562px;
+$color: #E6E6E6;
+
 .todo-app__frame {
     display: flex;
-    width: 562px;
+    width: $width-window;
     min-height: 402px;
     flex-direction: column;
     flex-wrap: wrap;
@@ -16,23 +19,23 @@
     display: flex;
     flex-direction: row;
     height: 66px;
-    width: 562px;
+    width: $width-window;
     
 }
 
 .todo-app__tasks {
     display: flex;
     min-height: 293px;
-    box-shadow: inset 0px 2px 1px #E6E6E6;
+    box-shadow: inset 0px 2px 1px $color;
 }
 
 .todo-app__actions-bar {
     display: flex;
-    width: 562px;
+    width: $width-window;
     height: 43px;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    box-shadow: inset 0px 2px 1px #E6E6E6;
+    box-shadow: inset 0px 2px 1px $color;
 }

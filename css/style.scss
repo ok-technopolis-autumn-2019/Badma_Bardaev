@@ -1,9 +1,12 @@
-@import "reset.css";
-@import "todos.css";
-@import "main.css";
-@import "main_control.css";
-@import "tasks.css";
-@import "footer.css";
+@import "./reset.css";
+@import "todos";
+@import "main";
+@import "main_control";
+@import "tasks";
+@import "footer";
+
+$width-window: 554px;
+$bg-color: #fff;
 
 html {
     background: rgba(0, 0, 0, 0.05);
@@ -23,9 +26,9 @@ html {
 
 .border-bottom1 {
     display: flex;
-    width: 554px;
+    width: $width-window;
     height: 3px;
-    background-color: #fff;
+    background-color: $bg-color;
     flex-direction: column;
     flex-wrap: wrap;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
@@ -33,9 +36,9 @@ html {
 
 .border-bottom2 {
     display: flex;
-    width: 546px;
+    width: $width-window - 8px;
     height: 2px;
-    background-color: #fff;
+    background-color: $bg-color;
     flex-direction: column;
     flex-wrap: wrap;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
